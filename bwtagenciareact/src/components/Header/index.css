@@ -1,0 +1,41 @@
+.navbar{
+    background-color:#ffb702;
+    color: #ffb702
+}
+
+.navbar a:hover{
+    color: #8400ff;
+}
+
+.navbar a.active{
+    border-bottom: 2px solid #8400ff;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.primary-color {
+    color: black;
+}
+
+.secondary-color {
+    color:rgb(11, 11, 100);
+}
+
+
+.menu{
+    display: flex;
+    padding: 5px 50px;
+}
+
+.links{
+    display: flex;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center
+}
+
+.nav-link{
+    margin: 0 2em;
+}

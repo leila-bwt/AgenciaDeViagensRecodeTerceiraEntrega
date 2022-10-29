@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!--CSS codigo-->
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top bg-prymary-color">
+        <div class="container-fluid menu">
+            <a href="#" class="navbar-brand primary-color">
+                <img src="./img/logo-novo.JPG" width="90" height="90">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+
+                <ul class="navbar me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link active primary-color" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link primary-color" href="./destinos.html" rel="stylesheet">Destinos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link primary-color" href="./pacotes.html" rel="stylesheet">Pacotes</a>
+                    </li>
+                    <li>
+                        <a class="nav-link primary-color" href="./todosOsDestinos.html" rel="stylesheet">Todos os Destinos</a>
+                    </li>
+                    <li>
+                        <a class=" nav-link primary-color" href="./cadastro.html">Cadastre-se</a>
+                    </li>
+                    <li>
+                        <a class="nav-link primary-color" href="./ajuda.html">Ajuda</a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Slider-->
+    <div class="container" id="slider-container">
+        <div class="carousel slide" id="slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button class="active" data-bs-target="#slider" data-bs-slide-to="0" aria-current="true"
+                    aria-label="Slide 1" type="button"></button>
+
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+
+                <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3">
+                </button>
+            </div>
+
+
+            <!--Carousel-->
+            <div id="carouselExampleControls" class="carousel slide" id="slider" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/gramado.jpg" class="d-block w-100" alt="Gramado">
+                        <div class="carousel-caption">
+                            <h5>Destinos</h5>
+                            <a href="destinos.html" class="btn btn-dark">Ver Destinos</a>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/mg3.jpg" class="d-block w-100"
+                            alt="Minas Gerais">
+                        <div class="carousel-caption">
+                            <h5>Pacotes Promocionais</h5>
+                            <a href="pacotes.html" class="btn btn-dark">Pacotes</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/maceio2.jpg" class="d-block w-100" alt="Maceió">
+                        <div class="carousel-caption">
+                            <h5>Cadastre-se e Ganhe Descontos</h5>
+                            <a href="cadastro.html" class="btn btn-dark">Cadastro</a>
+                        </div>
+
+
+
+                        <!--indicators-->
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+            <!--mini banners-->
+            <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-image-alt"> </i>
+                            <div class="card-body">
+                                <h5 class="card-title secondary-color">Lindos Lugares</h5>
+                                <p class="card-text secondary-color">Os melhores destinos e a melhor culinária local.
+                                </p>
+                                <a href="./destinos.html" class="btn btn-dark">Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-cash-coin secondary-color"> </i>
+                            <div class="card-body">
+                                <h5 class="card-title secondary-color">Preços Incríveis</h5>
+                                <p class="card-text secondary-color">São diversos pacotes e promoções o ano todo.</p>
+                                <a href="./pacotes.html" class="btn btn-dark">Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="card text-center">
+                            <i class="bi bi-sunglasses secondary-color"> </i>
+                            <div class="card-body">
+                                <h5 class="card-title secondary-color">Todos os Gostos</h5>
+                                <p class="card-text secondary-color">Para descansar ou para curtir, aqui é o lugar
+                                    certo.</p>
+                                <a href="" class="btn btn-dark">Saber Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+                     <!--Footer-->
+                     
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <img src="./img/logo-nome1.JPG" alt="Logo com nome" width="60%">
+
+      <p class="footer-links">
+        <a href="index.html" class="link-1">Home</a>
+
+        <a href="pacotes.html">Promoções</a>
+
+        <a href="./cadastro.html">Cadastro</a>
+
+        <a href="./ajuda.html">Contato</a>
+      </p>
+
+      <p class="footer-company-name">BWT Travels Ltda © 2022</p>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <p><span>Avenida Paulista, 2222</span> São Paulo, Brasil</p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>(11) 2222.2020</p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:support@company.com">relacionamento@bwt.com</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>Sobre Nós</span>
+        Somos uma empresa que preza pelo acolhimento e atendimento humanizado. Olhamos nossos clientes como amigos e sua
+        necessidade é o nosso combustível.
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.facebook.com/
+              "><i class="bi bi-facebook""></i></a>
+              <a href=" https://www.twitter.com"><i class="bi bi-twitter"></i></a>
+        <a href="https://br.linkedin.com/
+              "><i class="bi bi-linkedin"></i></a>
+        <a href="https://www.instagram.com/
+              "><i class="bi bi-instagram"></i></a>
+
+      </div>
+
+    </div>
+
+
+  </footer>
+                    
+
+                    <!-- JavaScript Bundle with Popper -->
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                        crossorigin="anonymous"></script>
+</body>
+
+</html>

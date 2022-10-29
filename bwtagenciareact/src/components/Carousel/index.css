@@ -1,0 +1,40 @@
+#slider {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#slider .carousel-caption {
+    bottom: 8em;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: black 2px 2px;
+}
+
+#slider .carousel-caption{
+bottom: 6em;   
+}
+
+#slider .btn {
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: white;
+    opacity: 0.8;
+		
+    
+}
+.carousel-indicators .active {
+    color: white;
+
+}
+.carousel-indicators {
+	bottom: 80em;
+}
+
+
+
+
